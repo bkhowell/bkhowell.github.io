@@ -1,0 +1,77 @@
+.body{
+    background-image: url(../../images/hip-square.png);
+    float: left;
+    width:90%;
+    height:100%;
+    margin: auto;
+    text-align: justify;
+}
+.project{
+    background-image: url(../../images/green_cup.png);
+    float: left;
+    width:90%;
+    height:100%;
+    margin: auto;
+    text-align: justify;
+}
+.bulletin{
+    background-image: url(../../images/cork.png);
+    float: left;
+    width:90%;
+    height:100%;
+    margin: auto;
+    text-align: justify;
+}
+
+
+
+.projects-container::-webkit-scrollbar {
+    display: none;
+  }
+.projects-container { 
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+}
+
+
+.body::-webkit-scrollbar {
+    display: none;
+  }
+.body { 
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+}
+
+
+
+.project-img {
+    display: inline-block;
+    max-width: 48%;
+    height: auto;
+    align-content: center;
+    float: inline-start;
+    padding-inline-start: 10px;
+    padding-top: 10px;
+ }
+ .project-img:hover{position: relative; 
+    top: -5px;
+    transform: rotate(2deg);
+} 
+
+ .projects-container {
+    margin-left: 35%; /* Matches the width of .menu */
+    display: inline-block;
+    gap: 15px;
+    padding: 10px;
+    overflow-y: auto; /* Allows scrolling */
+}
+
+.bulletin-img {
+    max-width: 48%;
+    height: auto;
+ }
+
+.text {
+    font-family: "IndieFlower";
+    font-size: 22px;
+}

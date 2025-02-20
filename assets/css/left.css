@@ -1,0 +1,97 @@
+
+@font-face {
+    font-family: 'IndieFlower';
+    src: url('../fonts/IndieFlower-Regular.ttf') format('truetype'); 
+}
+
+    
+.menu{
+    background-image: url(../../images/paper_torn.png);
+    background-size: 700px 1200px;
+    float: left;
+    width:30%;
+    height:200%;
+    cursor: pointer;
+    position: fixed;
+}
+
+
+
+ 
+   
+
+.container {
+    position: relative;
+    display: inline-block;
+    text-align: center; 
+    vertical-align: middle;
+    align-content: center;
+    align-items: center;
+}
+.container:hover{ position: relative; 
+    top: -5px;
+    transform: rotate(5deg);
+} 
+
+.text-box {
+    position: absolute;
+    height: 100%;
+    text-align: center;    
+    width: 100%;
+    vertical-align: middle;
+    margin-left: 70%;
+    align-content: center;
+}
+
+
+h4 {
+    font-family: "IndieFlower";
+    display: inline-block;
+    font-size: 28px; /*or whatever you want*/
+    color: black;  
+    text-align: center;  
+    vertical-align: middle;
+    align-content: center;
+}
+
+h2 {
+    font-family: "IndieFlower";
+    display: inline-block;
+    font-size: 40px; /*or whatever you want*/
+    color: black;  
+    text-align: center;  
+    vertical-align: middle;
+    align-content: center;
+}
+
+img {
+   display: block;
+   max-width: 255%;
+   height: auto;
+   align-content: center;
+}
+
+.container-stationary {
+    position: relative;
+    display: inline-block;
+    text-align: center; 
+    vertical-align: middle;
+    align-content: center;
+    align-items: center;
+}
+.img-bulletin {
+    display: block;
+    float: right;
+    max-width: 25%;
+    height: auto;
+    align-content: center;
+ }
+ .p-header {
+    font-family: "IndieFlower";
+    display: inline-block;
+    font-size: 28px; /*or whatever you want*/
+    color: black;  
+    text-align: center;  
+    vertical-align: middle;
+    align-content: center;
+}
